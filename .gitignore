@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+VPN_Robotics.egg-info/
+.vscode/
+
+log/

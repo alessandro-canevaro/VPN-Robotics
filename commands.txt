@@ -1,0 +1,13 @@
+tensorboard: tensorboard --logdir .\log\vpn_basic\
+
+black --line-length 100 .\src\environment\
+
+screen -ls
+screen -S session_name
+ctrl-a + d <-detach session
+screen -r <-attach session
+
+
+
+ros2 run rviz2 rviz2 -d $(ros2 pkg prefix nav2_bringup)/share/nav2_bringup/rviz/nav2_default_view.rviz
+
