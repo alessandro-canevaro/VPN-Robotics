@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="myobject">
+    <pose>0 0 0 0 0 0</pose>
+    <static>false</static>
+    
+    <link name="link">
+      <gravity>0</gravity>
+      <visual name="visual">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.16 1.1 0.05</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+
+    <link name="linklogo">
+      <gravity>0</gravity>
+      <visual name="visual">
+        <pose>0 0 0.0205 0 0 3.1415</pose>
+        <geometry>
+          <box>
+            <size>0.15 0.45 0.01</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>/home/alessandro/vpn_project/VPN_Robotics/ros/src/cooperative_robotics/models/object/mytexture.material</uri>
+            <name>Gazebo/My</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

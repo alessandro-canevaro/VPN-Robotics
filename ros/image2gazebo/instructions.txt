@@ -1,0 +1,2 @@
+cd ./maps/
+sh ../create_world.sh 0.3 2.0 ../map32 ./map1.png

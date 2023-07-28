@@ -1,0 +1,5 @@
+[console_scripts]
+ctrl_node = cooperative_robotics.ctrl_node:main
+manager_node = cooperative_robotics.manager_node:main
+noisy_odom = cooperative_robotics.noisy_odom:main
+
